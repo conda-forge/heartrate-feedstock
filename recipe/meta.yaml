@@ -1,5 +1,5 @@
 {% set name = "heartrate" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/heartrate-{{ version }}.tar.gz
-  sha256: effd6ecf24c2ce5424300c3494cfcfdb20bccb9061bf512b7fc05795772eb457
+  sha256: a51841684521be6eaaad6ed7f03a3834f40a6492b7c823e9f50efe41ac5aa077
 
 build:
   number: 0
